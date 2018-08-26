@@ -33,10 +33,10 @@ debug cable/headers of some kind that will fit into the slim form factor.
 The ultimate goal is to use GPIO for the gamepad itself and disable USB power
 entirely. This will disable the Gigabit Ethernet and USB chip in the 3B+ that
 consumes [~200ma](https://www.raspberrypi.org/forums/viewtopic.php?t=208110) at
-5V which will. That will the 3B+ fit into the constrained power budget. To that
-end I will likely be using serial console access for configuration. Large transfers
-will have to happen over WiFi or via direct manipulation of the SD card from my
-Linux desktop.
+5V. Disabling that will help the 3B+ fit into the constrained power budget. As
+a result I will likely be using serial console access for configuration. Large
+transfers will have to happen over WiFi or via direct manipulation of the SD card
+from my Linux desktop.
 
 ![Cartridge Hole Fitting](images/01-cartridge-fit.jpg)
 
